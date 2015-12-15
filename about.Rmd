@@ -1,0 +1,13 @@
+---
+title: "About Daniel Szulc"
+output: html_document
+---
+
+###  
+
+With a strong background in finance and business consulting, Daniel Szulc consistently seeks real business value in the data. He is passionate about R statistical programming language and databases (especially SQL RDBMS). However, he is constantly aware that these are only tools. They have value as long as you can use them to produce actionable insights that in turns enable managers to make better business decisions.
+
+#### Stay in touch
+[LinkedIn](https://pl.linkedin.com/in/dszulc) 
+[Github](https://github.com/DanielSzulc) 
+[Email](mailto:daniel.szulc@intelligence-data.net) 
