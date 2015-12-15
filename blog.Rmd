@@ -1,0 +1,9 @@
+---
+title: "Blog Posts"
+output: html_document
+---
+
+#### [The First Steps in Data Science, 15 Dec 2015](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
+
+####[Second one](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
+####[Second one](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
