@@ -1,7 +1,7 @@
 html_document:
   self_contained: false
   lib_dir: libs
-  theme: null
+  theme: cosmo
   css: v2-cr-css.css
   includes:
     in_header: include/in_header.html

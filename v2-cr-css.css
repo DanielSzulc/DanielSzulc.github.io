@@ -114,3 +114,8 @@ figure {
 .cr-przypis {
 	font-style: italic;
 }
+.cr-footer {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+}
