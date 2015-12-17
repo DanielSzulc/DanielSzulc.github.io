@@ -1,22 +1,24 @@
 ---
 title: "This is our time"
 author: "Daniel Szulc"
-date: "14 Dec 2015"
+date: "14 December 2015"
 output: html_document
 ---
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this[^1]:
 
 ```{r}
 summary(cars)
 ```
-
+![Two men during the assessment](http://intelligence-data.net/blog/images/one-to-one-meeting001.JPG "Title of this image")
 You can also embed plots, for example:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.cap="Source: Data soft"}
 plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+[^1]: Zorian Rotenberg, "The Right KPIs",insightsquared.com, 24 May 2013, accessed 1 September 2015, http://www.insightsquared.com/2013/05/the-right-key-sales-performance-metrics-for-your-sales-reps/   

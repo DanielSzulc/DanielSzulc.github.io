@@ -4,22 +4,23 @@ output: html_document
 ---
 
 
-### My Motto
-> Data science has value as long as it brings actionable insights to the business. And this blog is a place where I want to bring those both worlds together.  
+### The Motto
+> Data science has value as long as it delivers actionable insights to the business. This blog is a place where I want to bring the both worlds together.  
 
-Thinking about data science for business. What do you believe is it about?  
+
 It is not about data. Even big data.  
 It is not about statistical models. Even very sophisticated ones.  
-It is not about any technology. Even very hot buzz words like Hadoop, Spark, Cloud  
+It is not about any technology. Even very hot buzz words like Hadoop, Spark, cloud.  
 It is not about charts and data visualisations. Even the most beautiful ones.  
-At the end of a day, it is only about money.  
+At the end of a day, it is about money.  
 Big data has to lead to big money. Otherwise, it makes no sense.  
+Especially in business.
 
 
 ### The latest posts
-[The First Steps in Data Science](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
+####[The First Steps in Data Science](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
 
-[Second one](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
+####[Second one](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
 
 ###[All Posts](http://danielszulc.intelligence-data.net/blog.html)
 

@@ -1,5 +1,6 @@
 body {
     padding-top: 60px;
+	
 }
 footer {
     background-color: #2c3e50;
@@ -119,3 +120,7 @@ figure {
         margin-left: auto;
         margin-right: auto;
 }
+.cr-navbar {
+	background-color: #2C3E50;
+	color: #F7FBFC;
+	}
