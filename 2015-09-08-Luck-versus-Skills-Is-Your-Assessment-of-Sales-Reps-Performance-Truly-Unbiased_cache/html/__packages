@@ -6,3 +6,15 @@ survival
 Formula
 ggplot2
 Hmisc
+knitr
+rmarkdown
+DBI
+RPostgreSQL
+plyr
+caret
+Metrics
+foreach
+iterators
+doParallel
+xtable
+rpart

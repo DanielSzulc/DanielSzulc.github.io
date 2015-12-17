@@ -8,7 +8,7 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE, tidy = TRUE, cache = TRUE,warning = FALSE, message = FALSE)
 ```
 
-```{r loadingLibraries, echo = TRUE}
+```{r loadingLibraries}
 library(dplyr)
 library(tidyr)
 library(Hmisc)
@@ -80,7 +80,8 @@ The outcome bias leads to misjudgment and potentially wrong decisions. Hence, we
 Just to be clear, I do not suggest abandoning outcome-based metrics in sales performance evaluation. Whatever we say, at the end of the day it is important how much we sold. However, paying attention also to process-based metrics can give every sales manager valuable insights and help to separate skill from chance and let assess the sales reps in a more objective way.
 
 #### Additional Materials
-
+[Reproducible R scrpit](http:/danielszulc.intelligence-data.net/2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased.Rmd)  
+[Data set used in the post](http://danielszulc.intelligence-data.net/2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds)  
 
 #### References and Sources
 
