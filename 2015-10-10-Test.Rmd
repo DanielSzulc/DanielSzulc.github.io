@@ -12,7 +12,8 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r}
 summary(cars)
 ```
-![Two men during the assessment](http://intelligence-data.net/blog/images/one-to-one-meeting001.JPG "Title of this image")
+![Two men during the assessment](http://intelligence-data.net/blog/images/one-to-one-meeting001.JPG "Title of this image")  
+
 You can also embed plots, for example:
 
 ```{r, echo=FALSE, fig.cap="Source: Data soft"}
