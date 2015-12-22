@@ -4,6 +4,7 @@ author: "Daniel Szulc"
 date: "8 September 2015"
 output: html_document
 ---
+
 ```{r initializeOptions, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE, tidy = TRUE, cache = TRUE,warning = FALSE, message = FALSE)
 ```
@@ -15,11 +16,28 @@ library(Hmisc)
 
 ```
 
+```{r fileMetaData}
+# configure this part
+mainURL <-"http://danielszulc.intelligence-data.net/"
+dataFile <- "salesPerformanceData.rds"
+
+# the rest is automaticaly set
+thisFile <- knitr::current_input()
+thisFileCore <- sub(".Rmd$","", thisFile)
+fullDataFileURL<- paste0(mainURL,thisFileCore,"_files/",dataFile)
+dataFilePath <-paste0("./",thisFileCore,"_files/",dataFile)
+
+# for debuging only
+#print(thisFile)
+#print(fullDataFileURL)
+#print(dataFilePath)
+```
+
 ```{r loadingData}
-if (!file.exists("./2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds")) {
-       download.file(url = "http://danielszulc.intelligence-data.net/2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds", destfile = "./2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds")
+if (!file.exists(dataFilePath)) {
+       download.file(url = fullDataFileURL, destfile = dataFilePath)
 }
-salesData <- readRDS("./2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds")
+salesData <- readRDS(dataFilePath)
 ```
 Sales reps are probably the most frequent evaluated employees in companies. Monthly or quarterly quotas they have to reach are natural opportunities to rate performance and give some feedback. It seems that assessment of such employees is quite straightforward and objective. Unlike in cases of many other types of jobs, here we have quantitative measures that reflect performance. We can count how much he or she sold. We can express this number as revenue in dollars. We can count a number of new customers or any other number relevant to the particular industry or company. We can quickly evaluate if a sales rep achieved a quota or if he sold more or less than his peers. However is this truly as easy and straightforward as it seems?
 
@@ -82,7 +100,9 @@ Just to be clear, I do not suggest abandoning outcome-based metrics in sales per
 #### Additional Materials
 [Reproducible R scrpit](2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased.Rmd) 
 
-[Dataset used in the post](http://danielszulc.intelligence-data.net/2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds)  
+[Dataset used in the post](http://danielszulc.intelligence-data.net/2015-09-08-Luck-versus-Skills-Is-Your-Assessment-of-Sales-Reps-Performance-Truly-Unbiased_files/salesPerformanceData.rds) 
+
+  
 
 #### References and Sources
 

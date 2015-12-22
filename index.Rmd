@@ -3,7 +3,6 @@ title: "Data Science Business Blog by Daniel Szulc"
 output: html_document
 ---
 
-
 ### The Motto
 > Data science has value as long as it delivers actionable insights to the business. This blog is a place where I want to bring the both worlds together.  
 
@@ -18,9 +17,16 @@ Especially in business.
 
 
 ### The latest posts
-####[The First Steps in Data Science](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
 
-####[Second one](http://danielszulc.intelligence-data.net/2015-10-10-Test.html)
+```{r initializeOptions, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, tidy = TRUE, cache = FALSE, warning = FALSE, message = FALSE)
+```
 
-###[All Posts](http://danielszulc.intelligence-data.net/blog.html)
+```{r links, results='asis'}
+source("helperFunctions.R")
+generatePostLinks(n = 5)
+```
+
+---------
+###[More Posts...](http://danielszulc.intelligence-data.net/blog.html)
 
